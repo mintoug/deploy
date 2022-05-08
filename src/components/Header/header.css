@@ -1,0 +1,31 @@
+nav{
+    background-color:rgb(68, 68, 146);
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+text-decoration: none;
+color: white;
+font-size: 25px;
+}
+a:hover{
+    color: rgb(207, 207, 136);
+}
+.active{
+    color:rgb(231, 80, 80);
+}
+h1{
+    color: gray;
+    margin: 0 auto;
+    width: 50px;
+    text-shadow: 10px;
+    font-size: 50px;
+}
+@media screen and (max-width:468px){
+    a{
+        font-size:16px;
+    }
+}
